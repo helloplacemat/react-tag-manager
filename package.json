@@ -36,7 +36,7 @@
     "test:watch": "npm test -- --watch --coverage=false",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags && npm publish",
-    "postinstall": "npm install && npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "debug": "4.1.1",
