@@ -14,6 +14,7 @@ export default {
     'debug',
     'react-router',
     'react-helmet',
+    'react-router-dom',
   ],
   plugins : [
     resolve({
